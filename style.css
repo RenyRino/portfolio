@@ -19,6 +19,7 @@ body {
   font-size: 36px;
   font-weight: bold;
   margin: 0px;
+  line-height: 1.5;
 }
 
 .hero h2 {
@@ -43,4 +44,39 @@ body {
   padding: 8px 20px;
   font-size: 18px;
   line-height: 27px;
+}
+
+h2 {
+  font-size: 64px;
+  font-family: var(--primary-font);
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.btn-feature {
+  border-radius: 4px;
+  text-decoration: none;
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
+  padding: 8px 20px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.project-desc {
+  padding: 40px 60px;
+}
+
+@media (max-width: 960px) {
+  .hero h1 {
+    font-size: 43px;
+  }
+  .project-desc {
+    padding: 0px;
+    text-align: center;
+  }
 }
