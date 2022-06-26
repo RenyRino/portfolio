@@ -137,6 +137,47 @@ p {
   margin-left: auto;
 }
 
+footer .contact-box {
+  background-color: var(--branding-color);
+  padding: 30px 200px;
+  border-radius: 10px;
+}
+
+footer h4 {
+  font-family: var(--primary-font);
+  font-size: 48px;
+}
+
+footer p {
+  font-family: var(--default-font);
+  padding: 0px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--button-color);
+}
+
+footer .social-link a {
+  margin: 0 20px;
+  color: var(--button-color);
+  padding: 10px 20px;
+  border-radius: 50%;
+  background-color: var(--branding-color);
+  font-size: 30px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-link a:hover {
+  color: white;
+  background-color: var(--button-color);
+}
+
 @media (max-width: 960px) {
   .hero h1 {
     font-size: 43px;
