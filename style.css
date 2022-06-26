@@ -4,8 +4,18 @@
   --primary-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
 }
+
+h1 {
+  font-family: var(--primary-font);
+}
+
+h2 {
+  font-family: var(--default-font);
+}
+
 body {
   font-family: var(--default-font);
+  text-align: center;
 }
 
 .hero h1 {
@@ -46,11 +56,6 @@ body {
   line-height: 27px;
 }
 
-h2 {
-  font-size: 64px;
-  font-family: var(--primary-font);
-}
-
 p {
   font-weight: normal;
   font-size: 16px;
@@ -68,7 +73,33 @@ p {
 }
 
 .project-desc {
-  padding: 40px 60px;
+  padding: 10px 60px;
+}
+
+.project-desc h2 {
+  font-size: 54px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+}
+
+.about-section p {
+  margin-bottom: 40px;
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-img {
+  margin-top: 50px;
+  border-radius: 10px;
 }
 
 @media (max-width: 960px) {
@@ -78,5 +109,14 @@ p {
   .project-desc {
     padding: 0px;
     text-align: center;
+  }
+
+  .about-section-content {
+    text-align: center;
+    padding: 30px !important;
+  }
+
+  .about-section-content h1 {
+    font-size: 50px;
   }
 }
