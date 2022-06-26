@@ -137,6 +137,11 @@ p {
   margin-left: auto;
 }
 
+footer {
+  margin-top: 50px;
+  font-family: var(--default-font);
+}
+
 footer .contact-box {
   background-color: var(--branding-color);
   padding: 30px 200px;
