@@ -128,6 +128,15 @@ p {
   text-decoration: none;
 }
 
+.navbar-brand {
+  font-family: var(--primary-font);
+  font-weight: bold;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
 @media (max-width: 960px) {
   .hero h1 {
     font-size: 43px;
